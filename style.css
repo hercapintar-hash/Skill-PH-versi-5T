@@ -184,3 +184,35 @@ https://wa.me/6281318990613?text=Saya%20ingin%20akses%20Skillpedia%20Lifetime%20
   display: none;
   z-index: 999;
 }
+.price-box {
+  margin: 15px 0;
+}
+
+.discount-badge {
+  display: inline-block;
+  background: #ffb703;
+  color: #000;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+.old-price {
+  color: #999;
+  font-size: 18px;
+  text-decoration: line-through;
+  margin-right: 10px;
+}
+
+.new-price {
+  color: #e63946;
+  font-size: 30px;
+  font-weight: bold;
+  }
+.urgency {
+  color: #d62828;
+  font-size: 14px;
+  font-weight: bold;
+}
