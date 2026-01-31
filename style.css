@@ -1,0 +1,186 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.hero {
+  padding: 40px 20px;
+}
+
+.logo {
+  width: 160px;
+  margin-bottom: 20px;
+}
+
+.headline-box {
+  background: #ffd400;
+  padding: 20px;
+  margin: 20px auto;
+  display: inline-block;
+}
+
+.headline-box h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.sub-headline {
+  background: #ffd400;
+  padding: 15px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.sub-headline h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.benefit {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.benefit li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.benefit .highlight {
+  color: red;
+  font-weight: bold;
+}
+
+.price {
+  margin: 30px 0;
+}
+
+.price span {
+  font-size: 22px;
+}
+
+.price h3 {
+  font-size: 56px;
+  color: #e6007e;
+  margin: 10px 0;
+}
+
+.note {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.cta {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 18px 40px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.countdown-box {
+  background: #fff;
+  border: 2px dashed #e6007e;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 320px;
+  border-radius: 12px;
+}
+
+.countdown-text {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#countdown {
+  font-size: 28px;
+  font-weight: bold;
+  color: #e6007e;
+}
+.sticky-cta {
+  position: fixed;
+  bottom: -100px;
+  left: 0;
+  width: 100%;
+  background: #000;
+  padding: 15px;
+  text-align: center;
+  transition: bottom 0.3s ease;
+  z-index: 999;
+}
+https://wa.me/6281318990613?text=Saya%20ingin%20akses%20Skillpedia%20Lifetime%20Access%2035%20Ribu
+.sticky-cta a {
+  color: #fff;
+  background: #e6007e;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sticky-cta.show {
+  bottom: 0;
+}
+@media (max-width: 600px) {
+
+  .headline-box h1 {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  .sub-headline h2 {
+    font-size: 22px;
+  }
+
+  .benefit li {
+    font-size: 15px;
+  }
+
+  .price h3 {
+    font-size: 42px;
+  }
+
+  .cta {
+    width: 100%;
+    padding: 18px;
+    font-size: 20px;
+  }
+
+  .sticky-cta a {
+    width: 100%;
+    display: block;
+    font-size: 18px;
+  }
+}
+.hero {
+  padding-bottom: 120px;
+}
+
+.benefit li {
+  margin-bottom: 12px;
+}
+.top-cta {
+  margin: 20px auto;
+  background: #e6007e;
+}
+.trust-popup {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  background: #000;
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-size: 13px;
+  display: none;
+  z-index: 999;
+}

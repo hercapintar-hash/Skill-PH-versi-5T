@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>skillPH versi 5T</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Upgrade Skill Seumur Hidup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<main>
+<section class="hero">
+  <img src="https://skillpedia.id/logo.png" alt="Skillpedia" class="logo">
+
+  <div class="headline-box">
+    <h1>UPGRADE SKILL SEPUASNYA</h1>
+  </div>
+
+  <a 
+href="https://wa.me/6281328990613?text=Saya%20ingin%20akses%20Skillpedia%20Lifetime%20Access%2035%20Ribu"
+     class="cta top-cta" target="_blank">
+     AKSES SEKARANG
+  </a>
+
+  <p style="font-size:13px;opacity:.8;">
+    ✔️ Sekali bayar &nbsp; ✔️ Tanpa langganan &nbsp; ✔️ Akses selamanya
+  </p>
+
+  <div class="sub-headline">
+    <h2>LIFETIME ACCESS</h2>
+  </div>
+
+  <ul class="benefit">
+    <li>Kelas Microsoft Word, Excel, PPT</li>
+    <li>Kelas Desain Grafis Lengkap</li>
+    <li>Kelas Digital Marketing Lengkap</li>
+    <li>Kelas Video Editing Lengkap</li>
+    <li>Kelas Bahasa Inggris & TOEFL</li>
+    <li>Kelas Programming Informatika</li>
+    <li class="highlight">Dan masih banyak lagi!</li>
+  </ul>
+
+  <div class="price">
+    <span>CUMA</span>
+    <h3>35 RIBU</h3>
+    <span>AKSES SEMUA</span>
+  </div>
+
+  <div class="countdown-box">
+    <p class="countdown-text">PROMO BERAKHIR DALAM:</p>
+    <div id="countdown">
+      <span id="hours">00</span> :
+      <span id="minutes">00</span> :
+      <span id="seconds">00</span>
+    </div>
+  </div>
+
+  <p class="note">
+    Sekali Bayar – Akses Semua Kelas – Lifetime Access – Free Update
+  </p>
+
+  <a href="https://wa.me/6281328990613?text=Halo%20Admin%2C%0ASaya%20tertarik%3A%0A-%20Produk%3A%20Skillpedia%20Lifetime%20Access%0A-%20Harga%3A%2035.000%0A%0AMohon%20info%20cara%20akses%20%F0%9F%99%8F"
+     class="cta" target="_blank">
+     AKSES SEKARANG
+  </a>
+</section>
+  </main>
+<div class="sticky-cta" id="stickyCTA">
+  <a href="https://wa.me/6281328990613?text=Halo%20Admin%2C%0ASaya%20tertarik%3A%0A-%20Produk%3A%20Skillpedia%20Lifetime%20Access%0A-%20Harga%3A%2035.000%0A%0AMohon%20info%20cara%20akses%20%F0%9F%99%8F"
+     target="_blank">
+     AKSES SEKARANG
+  </a>
+</div>
+
+<div id="trustPopup" class="trust-popup">
+  🔥 1.200+ orang sudah akses<br>
+  ⏰ Promo berakhir hari ini
+</div>
+
+<script>
+  function getTodayDeadline() {
+    const now = new Date();
+    return new Date(
+      now.getFullYear(),
+      now.getMonth(),
+      now.getDate(),
+      23, 59, 59
+    ).getTime();
+  }
+
+  let deadline = getTodayDeadline();
+
+  setInterval(() => {
+    const now = new Date().getTime();
+    let distance = deadline - now;
+
+    if (distance <= 0) {
+      deadline = getTodayDeadline();
+      distance = deadline - now;
+    }
+
+    const hours = Math.floor((distance / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((distance / (1000 * 60)) % 60);
+    const seconds = Math.floor((distance / 1000) % 60);
+
+    document.getElementById("hours").innerText = String(hours).padStart(2, "0");
+    document.getElementById("minutes").innerText = String(minutes).padStart(2, "0");
+    document.getElementById("seconds").innerText = String(seconds).padStart(2, "0");
+  }, 1000);
+</script>
+
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
